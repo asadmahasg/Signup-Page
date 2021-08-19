@@ -9,37 +9,45 @@
 </head>
 <body>
     <div class="yellowDiv">
-        <div class="contentInside">
-            <h4 class="title">Account settings</h4>
-            <img src="Images/close.svg" alt="" class="closeIcon">
-        </div>
+        <div class="container">
+            <div class="headingContent">
+                <h4 class="title">Account settings</h4>
+                <img src="Images/close.svg" alt="" class="closeIcon">
+            </div>
 
-        <div class="whiteDiv">
-            <div class="contentInside">
-                <img src="Images/avatar.jpg" alt="" class="picture">
-                <div class="fields field-1">
-                    <p class="filedName username">Username</p>
-                    <input type="text" class="inputField">
-                </div>
-                <div class="fields field-2">
-                    <div class="left">
-                        <p class="filedName firstName">First Name</p>
-                        <input type="text" class="inputField">
+            <div class="whiteDiv">
+                <div class="contentInside">
+                    <img src="Images/avatar.jpg" alt="" class="picture">
+                    <div class="fields field-1">
+                        <p class="fieldName ">Username</p>
+                        <input type="text" class="inputField" placeholder="Enter your username">
                     </div>
-                    <div class="right">
-                        <p class="filedName lastName">Last Name</p>
-                        <input type="text" class="inputField">
+                    <div class="fields field-2">
+                        <div class="left">
+                            <p class="fieldName firstName">First Name</p>
+                            <input type="text" class="inputField" placeholder="Enter your first name">
+                        </div>
+                        <div class="right">
+                            <p class="fieldName lastName">Last Name</p>
+                            <input type="text" class="inputField" placeholder="Enter your last name">
+                        </div>
                     </div>
-                </div>
-                <div class="fields field-3">
-                    <p class="filedName email">Email</p>
-                    <input type="text" class="inputField">
-                </div>
-                <div class="fields field-4">
-                    <p class="filedName bio">Bio</p>
-                    <textarea class="paraInput" cols="50" rows="10" ></textarea>
+                    <div class="fields field-3">
+                        <p class="fieldName email">Email</p>
+                        <input type="text" class="inputField" placeholder="Enter your email">
+                    </div>
+                    <div class="fields field-4">
+                        <p class="fieldName bio">Bio</p>
+                        <textarea class="inputField-para" cols="50" rows="10" placeholder="Tell us about yourself"></textarea>
+                    </div>
                 </div>
             </div>
+
+        </div>
+        
+        <div class="bottomButtons">
+            <button class="button">Cancel</button>
+            <button class="button">Save</button>
         </div>
     </div>
 </body>
